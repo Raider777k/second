@@ -1,0 +1,324 @@
+body{
+  background: #fff;
+}
+
+header{
+ width: 100%;
+ height: 100px;
+ background:  url(Logotip.png) no-repeat 50% 50%;
+ margin-bottom: 40px;
+ margin-top: 30px;
+s
+}
+
+a.dec{
+  color: #f16522;
+  text-decoration: none;
+  display: flex;
+  text-decoration: none;
+}
+
+h1{
+  margin-left: 400px;
+  margin-top: 40px;
+  font-family: Tahoma;
+}
+
+table{
+  text-align: center;
+  border-spacing: 23px 14px;
+}
+
+p.fol{
+margin-top: 35px;
+margin-left: 30px
+font-family: Georgia, serif;
+font-style: italic;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+color: #6e6e6e;
+float: left;
+width: 230px;
+letter-spacing: 0px
+}
+
+p.tel{
+  color: #f16522;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+
+p.zagl{
+  margin-top: 35px;
+  margin-left: 400px;
+  font-family: Georgia, serif;
+  font-style: italic;
+  font-size: 27px;
+  line-height: 16px;
+  text-align: center;
+  color: #111111;
+  width: 230px;
+  letter-spacing: 0px
+
+}
+
+.discr{
+  text-align: center;
+  margin-left: 200px;
+}
+
+a.butt{
+  display: inline-block;
+  background: #F16522;
+  color: #fff;
+  padding: 15px;
+  border-radius: 3px;
+  text-decoration: none;
+  font-family: Tahoma;
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 100;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+a.buttom{
+  display: inline-block;
+  background: #F16522;
+  color: #fff;
+  padding: 14px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-family: Tahoma;
+  font-size: 14px;
+  line-height: 1;
+  font-weight: 150;
+  margin-top: 10px;
+}
+
+a.price{
+  color: #F16522;
+  text-decoration: none;
+  font-family: Tahoma;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+a.good{
+  text-decoration: none;
+  font-family: Tahoma;
+  font-size: 18px;
+  font-weight: bold;
+  color: inherit;
+}
+
+.container {
+  width: 1000px; /* Ширина слоя */
+  height: auto;
+  margin: 0 auto; /* Выравнивнить весь блок по центру */
+  background: #fff; /* Цвет фона левой колонки */
+}
+
+.reg{
+  color: #F16522;
+  width: 300px;
+  height: 100%;
+  padding-top: 12px;
+  padding-left: 14px;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.busket{
+  padding-top: 0px;
+
+  margin-left: 870px;
+}
+
+.main{
+  display: flex;
+}
+
+.k1{
+  display: flex;
+  flex-direction: column;
+}
+
+.k3{
+  display: flex;
+}
+
+.mail{
+margin-top: 30px;
+margin-left: 30px;
+}
+
+.present{
+  margin-left: 70px;
+  margin-top: 50px;
+}
+
+.name{
+  display: flex;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 22px;
+  color: #1a1a1a;
+  letter-spacing: 0;
+  font-family: Tahoma;
+}
+
+table.tabletka{
+  border: 1px solid #6e6e6e ;
+  text-align: left;
+  margin-top: 50px;
+  margin-left: 50px;
+  border-spacing: 43px 14px;
+}
+
+caption.f{
+  text-decoration: none;
+  font-family: Tahoma;
+  font-size: 18px;
+  font-weight: bold;
+  color: inherit;
+  text-align: left;
+}
+
+caption.s{
+  margin-top: 14px;
+  text-align: left;
+  margin-bottom: 14px;
+}
+
+
+
+/*################################################*/
+
+/*country menu*/
+.select {
+  margin: 0 auto;
+  position: relative;
+  width: 180px;
+
+
+}
+.select.is-active .select__body {
+  display: block;}
+
+.select__header {
+  border: 5px solid #ccc;
+  cursor: pointer;
+  display: flex;
+
+}
+.select__current {
+  font-size: 18px;
+  line-height: 10px;
+  padding: 8px;
+
+}
+.select__icon {
+  align-items: center;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  height: 20px;
+  margin-left: auto;
+  text-align: center;
+  width: 20px;
+
+}
+
+.select__body {
+  border: 5px solid #cccccc;
+  border-top: 0;
+  display: none;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  background: white;
+}
+.select__item {
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 15px;
+  padding: 5px;
+}
+
+.select__item:hover {
+  background-color: #f2f2f2;
+}
+
+/*main menu*/
+.dws-menu *{
+  margin: 0;
+  padding: 0;
+}
+
+.dws-menu ul,
+.dws-menu{
+  list-style: none;
+}
+
+.dws-menu > ul{
+  display: flex;
+  justify-content: center;
+}
+
+.dws-menu > ul li a{
+  display: block;
+  background: #fff;
+  padding: 15px 100px 15px 40px;
+  font-size: 14px;
+  color: #f16522;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+.dws-menu > ul li{
+  position: relative;
+}
+
+.dws-menu > ul li> a i.fa{
+  position: absolute;
+  top: 15px;
+  left: 12px;
+  font-size: 25px;
+}
+
+.dws-menu li a:hover{
+  background: antiquewhite;
+  color: black;
+  transition: all 0.3s ease;
+}
+
+/*sub menu*/
+.dws-menu li ul {
+  margin-left: -15px;
+  position: absolute;
+  min-width: 150px;
+  display: none;
+
+}
+
+.dws-menu li> ul li{
+  border: 1px antiquewhite;
+
+}
+
+.dws-menu li > ul li a{
+  padding: 10px;
+  text-transform: none;
+  background: white;
+  border-radius: 10px;
+}
+
+.dws-menu li:hover > ul{
+  display: block;
+}
